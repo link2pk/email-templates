@@ -1,0 +1,119 @@
+<mjml>
+  <mj-head>
+    <mj-font href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000" name="Nunito Sans" />
+    <mj-attributes>
+      <mj-all font-family="Nunito Sans, sans-serif" letter-spacing="1px" line-height="1.5"></mj-all>
+      <mj-text color="#fff" align="center"></mj-text>
+      <mj-class name="py-0" padding-top="0" padding-bottom="0"></mj-class>
+      <mj-class name="pt-0" padding-top="0"></mj-class>
+      <mj-class name="pb-0" padding-bottom="0"></mj-class>
+      <mj-class name="fw-light" font-weight="200"></mj-class>
+      <mj-class name="fs-14" font-size="14px"></mj-class>
+      <mj-class name="fs-15" font-size="15px"></mj-class>
+      <mj-class name="column-width" width="190px"></mj-class>
+    </mj-attributes>
+    <mj-style>
+      @media (max-width:480px) {
+        .hide {
+          display: none;
+        }
+
+        .pb-mobile {
+          padding-bottom: 20px;
+        }
+      }
+    </mj-style>
+    <mj-style>
+      .btn-gradient p {
+        background-color: #0E459F !important;
+        background-image: linear-gradient(to right, #FF8742, #0E459F) !important;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body width="640px" background-color="#000">
+    <mj-section background-url="https://mcusercontent.com/72a10dc43222ad5ff620f1c72/images/2f5e5d84-f12f-025e-13ff-99e25e3aa1cb.jpg" background-size="600px" background-repeat="no-repeat">
+      <mj-column>
+        <mj-spacer height="120px"></mj-spacer>
+        <mj-text font-size="40px" font-weight="800" letter-spacing="8px" line-height=".4"> SANKALP </mj-text>
+        <mj-text font-size="11px" font-weight="600" letter-spacing="3px">BUILDING THE INDIA OF TOMORROW</mj-text>
+        <mj-spacer height="8px"></mj-spacer>
+        <mj-text letter-spacing="2px">15TH AUGUST 2024 | OLA FUTUREFACTORY</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-spacer height="18px"></mj-spacer>
+        <mj-text font-weight="800" letter-spacing="2px">Tune in to the livestream at 11am</mj-text>
+        <mj-spacer height="40px"></mj-spacer>
+        <mj-image src="https://mcusercontent.com/72a10dc43222ad5ff620f1c72/images/e4d2c88a-1310-f29d-0d7d-bfdff31be8f4.jpg" width="88px" alt="divider"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="420px">
+        <mj-text mj-class="pb-0 fs-14 fw-light">We're all set for Sankalp 2024.</mj-text>
+        <mj-text mj-class="py-0 fs-14 fw-light">Witness giant leaps and revolutionary advances in electric mobility, consumer tech and </mj-text>
+        <mj-text mj-class="pt-0 fs-14 fw-light">Al - made in India, for Indians and the world.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="py-0">
+      <mj-column mj-class="column-width" css-class="pb-mobile">
+        <mj-text mj-class="py-0">THE FUTURE </mj-text>
+        <mj-text mj-class="py-0">OF MOTORCYCLING</mj-text>
+      </mj-column>
+      <mj-column mj-class="column-width" css-class="pb-mobile">
+        <mj-text mj-class="py-0">OUR ENERGY</mj-text>
+        <mj-text mj-class="py-0">VISION FOR INDIA</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="hide">
+      <mj-column mj-class="column-width">
+        <mj-image src="https://mcusercontent.com/72a10dc43222ad5ff620f1c72/images/65e039d0-349f-066c-1126-e79c1700572f.png" width="20px" alt="divider" mj-class="py-0"></mj-image>
+      </mj-column>
+      <mj-column mj-class="column-width">
+        <mj-image src="https://mcusercontent.com/72a10dc43222ad5ff620f1c72/images/65e039d0-349f-066c-1126-e79c1700572f.png" width="20px" alt="divider" mj-class="py-0"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="pt-0">
+      <mj-column mj-class="column-width" css-class="pb-mobile">
+        <mj-text mj-class="py-0">A GIANT LEAP</mj-text>
+        <mj-text mj-class="py-0">IN COMMERCE</mj-text>
+      </mj-column>
+      <mj-column mj-class="column-width">
+        <mj-text mj-class="py-0">THE DAWN OF</mj-text>
+        <mj-text mj-class="py-0">AI REVOLUTION</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="30px 0">
+      <mj-column>
+        <mj-text mj-class="pb-0 fw-light  fs-14">
+          The event will be livestreamed in 9 languages.
+        </mj-text>
+        <mj-text mj-class="pt-0 fw-light  fs-14">
+          Catch all the action from home or your nearest Ola Electric Store.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-wrapper padding="0 50px" background-url="https://mcusercontent.com/72a10dc43222ad5ff620f1c72/images/04614143-e8d4-01ca-0eac-3ae6844be4ec.jpg" background-size="contain" background-repeat="no-repeat" background-position="bottom">
+
+      <mj-section padding-bottom="60px">
+        <mj-column>
+          <mj-button css-class="btn-gradient" border-radius="0" letter-spacing="3px">
+            LIVESTREAM NOW
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0" border-top="1px solid rgba(255,255,255,0.5)" border-bottom="1px solid rgba(255,255,255,0.5)">
+        <mj-column vertical-align="middle">
+          <mj-text align="left" letter-spacing="0">
+            olasankalp.com
+          </mj-text>
+        </mj-column>
+        <mj-column vertical-align="middle">
+          <mj-image align="right" width="72px" src="https://mcusercontent.com/72a10dc43222ad5ff620f1c72/images/42309190-3ab6-3ddb-2717-039b290c0b1c.png" alt="OLA logo" />
+        </mj-column>
+      </mj-section>
+      <mj-section padding-bottom="15px">
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
