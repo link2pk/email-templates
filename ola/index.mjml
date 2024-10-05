@@ -11,7 +11,27 @@
       <mj-class name="fs-14" font-size="14px"></mj-class>
       <mj-class name="fs-15" font-size="15px"></mj-class>
       <mj-class name="column-width" width="190px"></mj-class>
+      <mj-class name="template-bg" background-color="#000000" />
     </mj-attributes>
+    <mj-style>
+      .footer-url div a {
+        text-decoration: none;
+        color: #ffffff;
+      }
+
+      .btn p {
+        background-color: #0E459F !important;
+        background-image: linear-gradient(to right, #FF8742, #0E459F) !important;
+      }
+    </mj-style>
+    <mj-style>
+      @media (min-width:480px) {
+        .btn p {
+          width: 240px;
+
+        }
+      }
+    </mj-style>
     <mj-style>
       @media (max-width:480px) {
         .hide {
@@ -23,15 +43,10 @@
         }
       }
     </mj-style>
-    <mj-style>
-      .btn-gradient p {
-        background-color: #0E459F !important;
-        background-image: linear-gradient(to right, #FF8742, #0E459F) !important;
-      }
-    </mj-style>
+
   </mj-head>
-  <mj-body width="640px" background-color="#000">
-    <mj-section background-url="https://mcusercontent.com/72a10dc43222ad5ff620f1c72/images/2f5e5d84-f12f-025e-13ff-99e25e3aa1cb.jpg" background-size="600px" background-repeat="no-repeat">
+  <mj-body>
+    <mj-section mj-class="template-bg" background-url="https://mcusercontent.com/72a10dc43222ad5ff620f1c72/images/2f5e5d84-f12f-025e-13ff-99e25e3aa1cb.jpg" background-size="600px" background-repeat="no-repeat">
       <mj-column>
         <mj-spacer height="120px"></mj-spacer>
         <mj-text font-size="40px" font-weight="800" letter-spacing="8px" line-height=".4"> SANKALP </mj-text>
@@ -40,7 +55,7 @@
         <mj-text letter-spacing="2px">15TH AUGUST 2024 | OLA FUTUREFACTORY</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section>
+    <mj-section mj-class="template-bg">
       <mj-column>
         <mj-spacer height="18px"></mj-spacer>
         <mj-text font-weight="800" letter-spacing="2px">Tune in to the livestream at 11am</mj-text>
@@ -48,14 +63,14 @@
         <mj-image src="https://mcusercontent.com/72a10dc43222ad5ff620f1c72/images/e4d2c88a-1310-f29d-0d7d-bfdff31be8f4.jpg" width="88px" alt="divider"></mj-image>
       </mj-column>
     </mj-section>
-    <mj-section>
+    <mj-section mj-class="template-bg">
       <mj-column width="420px">
         <mj-text mj-class="pb-0 fs-14 fw-light">We're all set for Sankalp 2024.</mj-text>
         <mj-text mj-class="py-0 fs-14 fw-light">Witness giant leaps and revolutionary advances in electric mobility, consumer tech and </mj-text>
         <mj-text mj-class="pt-0 fs-14 fw-light">Al - made in India, for Indians and the world.</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section mj-class="py-0">
+    <mj-section mj-class="py-0 template-bg">
       <mj-column mj-class="column-width" css-class="pb-mobile">
         <mj-text mj-class="py-0">THE FUTURE </mj-text>
         <mj-text mj-class="py-0">OF MOTORCYCLING</mj-text>
@@ -65,7 +80,7 @@
         <mj-text mj-class="py-0">VISION FOR INDIA</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section css-class="hide">
+    <mj-section css-class="hide" mj-class="template-bg">
       <mj-column mj-class="column-width">
         <mj-image src="https://mcusercontent.com/72a10dc43222ad5ff620f1c72/images/65e039d0-349f-066c-1126-e79c1700572f.png" width="20px" alt="divider" mj-class="py-0"></mj-image>
       </mj-column>
@@ -73,7 +88,7 @@
         <mj-image src="https://mcusercontent.com/72a10dc43222ad5ff620f1c72/images/65e039d0-349f-066c-1126-e79c1700572f.png" width="20px" alt="divider" mj-class="py-0"></mj-image>
       </mj-column>
     </mj-section>
-    <mj-section mj-class="pt-0">
+    <mj-section mj-class="pt-0  template-bg">
       <mj-column mj-class="column-width" css-class="pb-mobile">
         <mj-text mj-class="py-0">A GIANT LEAP</mj-text>
         <mj-text mj-class="py-0">IN COMMERCE</mj-text>
@@ -83,36 +98,29 @@
         <mj-text mj-class="py-0">AI REVOLUTION</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section padding="30px 0">
+    <mj-section padding="30px 0" mj-class="template-bg">
       <mj-column>
-        <mj-text mj-class="pb-0 fw-light  fs-14">
-          The event will be livestreamed in 9 languages.
-        </mj-text>
-        <mj-text mj-class="pt-0 fw-light  fs-14">
-          Catch all the action from home or your nearest Ola Electric Store.
-        </mj-text>
+        <mj-text mj-class="pb-0 fw-light  fs-14"> The event will be livestreamed in 9 languages. </mj-text>
+        <mj-text mj-class="pt-0 fw-light  fs-14"> Catch all the action from home or your nearest Ola Electric Store. </mj-text>
       </mj-column>
     </mj-section>
-    <mj-wrapper padding="0 50px" background-url="https://mcusercontent.com/72a10dc43222ad5ff620f1c72/images/04614143-e8d4-01ca-0eac-3ae6844be4ec.jpg" background-size="contain" background-repeat="no-repeat" background-position="bottom">
-
+    <mj-wrapper mj-class=" template-bg" padding="0 40px" background-url="https://mcusercontent.com/72a10dc43222ad5ff620f1c72/images/04614143-e8d4-01ca-0eac-3ae6844be4ec.jpg" background-size="cover" background-repeat="no-repeat" background-position="bottom">
       <mj-section padding-bottom="60px">
         <mj-column>
-          <mj-button css-class="btn-gradient" border-radius="0" letter-spacing="3px">
-            LIVESTREAM NOW
-          </mj-button>
+          <mj-button font-size="15px" css-class="btn" line-height="1.8" border-radius="0" letter-spacing="3px"> LIVESTREAM NOW </mj-button>
         </mj-column>
       </mj-section>
       <mj-section padding="0" border-top="1px solid rgba(255,255,255,0.5)" border-bottom="1px solid rgba(255,255,255,0.5)">
-        <mj-column vertical-align="middle">
-          <mj-text align="left" letter-spacing="0">
-            olasankalp.com
-          </mj-text>
-        </mj-column>
-        <mj-column vertical-align="middle">
-          <mj-image align="right" width="72px" src="https://mcusercontent.com/72a10dc43222ad5ff620f1c72/images/42309190-3ab6-3ddb-2717-039b290c0b1c.png" alt="OLA logo" />
-        </mj-column>
+        <mj-group>
+          <mj-column vertical-align="middle">
+            <mj-text css-class="footer-url" letter-spacing="0" padding="8px 20px" align="left"> olasankalp.com </mj-text>
+          </mj-column>
+          <mj-column vertical-align="middle">
+            <mj-image align="right" padding="8px 20px" width="68px" src="https://mcusercontent.com/72a10dc43222ad5ff620f1c72/images/42309190-3ab6-3ddb-2717-039b290c0b1c.png" alt="OLA logo" />
+          </mj-column>
+        </mj-group>
       </mj-section>
-      <mj-section padding-bottom="15px">
+      <mj-section>
       </mj-section>
     </mj-wrapper>
   </mj-body>
