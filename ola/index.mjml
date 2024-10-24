@@ -19,14 +19,14 @@
         color: #ffffff;
       }
 
-      .btn p {
+      .btn td a {
         background-color: #0E459F !important;
         background-image: linear-gradient(to right, #FF8742, #0E459F) !important;
       }
     </mj-style>
     <mj-style>
       @media (min-width:480px) {
-        .btn p {
+        .btn td a {
           width: 240px;
 
         }
@@ -107,7 +107,7 @@
     <mj-wrapper mj-class=" template-bg" padding="0 40px" background-url="https://mcusercontent.com/72a10dc43222ad5ff620f1c72/images/04614143-e8d4-01ca-0eac-3ae6844be4ec.jpg" background-size="cover" background-repeat="no-repeat" background-position="bottom">
       <mj-section padding-bottom="60px">
         <mj-column>
-          <mj-button font-size="15px" css-class="btn" line-height="1.8" border-radius="0" letter-spacing="3px"> LIVESTREAM NOW </mj-button>
+          <mj-button href="#" font-size="15px" css-class="btn" line-height="1.8" border-radius="0" letter-spacing="3px"> LIVESTREAM NOW </mj-button>
         </mj-column>
       </mj-section>
       <mj-section padding="0" border-top="1px solid rgba(255,255,255,0.5)" border-bottom="1px solid rgba(255,255,255,0.5)">

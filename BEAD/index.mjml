@@ -1,0 +1,42 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Merriweather Sans" href="https://api.fontshare.com/v2/css?f[]=merriweather-sans@400,500,600" />
+    <mj-attributes>
+      <mj-all font-family="Merriweather Sans, sans-serif" />
+      <mj-class name="primary-blue" color="#0077C8"></mj-class>
+      <mj-class name="bg-blue" background-color="#0077C8"></mj-class>
+      <mj-class name="text-center" align="center"></mj-class>
+    </mj-attributes>
+    <mj-style>
+      @media (min-width: 480px){
+        .btn-right{
+          align: right;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-section background-color="#fff">
+      <mj-column>
+        <mj-image src="https://mcusercontent.com/72a10dc43222ad5ff620f1c72/images/f5a1e282-228b-2eb1-92c3-7455be662fd9.png" width="110px" align="right" padding="0 25px 0 0"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#F5F5F5">
+      <mj-column width="470px">
+        <mj-text mj-class="primary-blue text-center" font-size="20px" font-weight="500">Maximize your BEAD funding success</mj-text>
+        <mj-text mj-class="text-center" font-size="30px" font-weight="600" line-height="1.25" letter-spacing="-1px"> Deliver blazing fast broadband services with Samsung 5G Fixed Wireless Access </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-wrapper background-color="#F5F5F5">
+      
+    <mj-section>
+      <mj-column width="220px">
+        <mj-button  padding="4px 0" mj-class="bg-blue" border-radius="20px" font-size="15px" font-weight="600"> Talk to an expert today </mj-button>
+      </mj-column>
+      <mj-column  width="140px" >
+        <mj-button  padding="4px 0" border-radius="20px"  font-size="15px" font-weight="600"> Learn more </mj-button>
+      </mj-column>
+    </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
