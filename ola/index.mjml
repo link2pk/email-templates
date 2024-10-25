@@ -112,7 +112,7 @@
       <mj-section padding="0" border-top="1px solid rgba(255,255,255,0.5)" border-bottom="1px solid rgba(255,255,255,0.5)">
         <mj-group>
           <mj-column vertical-align="middle">
-            <mj-button href="https://www.olasankalp.com/" css-class="footer-url" letter-spacing="0" padding="8px 20px" align="left" background-color="transparent"> olasankalp.com </mj-button>
+            <mj-button href="https://www.olasankalp.com/" css-class="footer-url" letter-spacing="0" padding="8px 5px 8px 20px" align="left" background-color="transparent"> olasankalp.com </mj-button>
           </mj-column>
           <mj-column vertical-align="middle">
             <mj-image align="right" padding="8px 20px" width="68px" src="https://mcusercontent.com/72a10dc43222ad5ff620f1c72/images/42309190-3ab6-3ddb-2717-039b290c0b1c.png" alt="OLA logo" href="https://www.olasankalp.com/" />
